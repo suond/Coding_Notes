@@ -1,0 +1,12 @@
+hoisting is when a function declaration is hoisted to the top
+
+var text = 'outside'
+
+function log(){
+    console.log(text) //undefined
+    var text = 'inside' //will hoist a new instance of text and not the global hoist
+    console.log(text) //inside
+}
+log()
+
+//dont use var since it defines a variable globally in a function
