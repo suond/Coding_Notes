@@ -12,7 +12,7 @@ function DFSPreOrder(root){
     traverse(root)
     return data;
 }
-console.log(DFSPreOrder(tree))
+console.log(`Pre order: ${DFSPreOrder(tree)}`)
 
 function DFSInOrder(root){
     let data = [];
@@ -24,7 +24,7 @@ function DFSInOrder(root){
     traverse(root)
     return data;
 }
-console.log(DFSInOrder(tree))
+console.log(`In order: ${DFSInOrder(tree)}`)
 
 function DFSPostOrder(root){
     let data = [];
@@ -36,7 +36,7 @@ function DFSPostOrder(root){
     traverse(root)
     return data;
 }
-console.log(DFSPostOrder(tree))
+console.log(`Postorder: ${DFSPostOrder(tree)}`)
 // console.log(tree)
 
  // Input: Array
